@@ -1,0 +1,35 @@
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    padding: 25px;
+    background-color: #000000;
+  }
+  
+  .category-card {
+    background: #2f302e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #b7eba3ff;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    border: 3px solid #ffffff;
+    color: white;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .category-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .category-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  

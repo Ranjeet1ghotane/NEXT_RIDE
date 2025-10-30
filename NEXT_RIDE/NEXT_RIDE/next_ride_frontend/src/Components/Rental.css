@@ -1,0 +1,63 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.orders-container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+.orders-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #5edd5b;
+  margin-bottom: 25px;
+}
+
+/* Display 3 rental cards per row */
+.rental-grid {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.order-item {
+  background: #1a1a1a;
+  border-left: 6px solid #5edd5b;
+  border-radius: 12px;
+  padding: 20px;
+  width: 30%; /* 3 in a row */
+  min-width: 280px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white;
+}
+
+.order-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.3);
+}
+
+.order-info h4 {
+  color: #5edd5b;
+  margin-bottom: 10px;
+}
+
+.order-info p {
+  margin: 6px 0;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.empty-orders-message {
+  text-align: center;
+  color: #888;
+  font-size: 1.2rem;
+  padding: 20px;
+}

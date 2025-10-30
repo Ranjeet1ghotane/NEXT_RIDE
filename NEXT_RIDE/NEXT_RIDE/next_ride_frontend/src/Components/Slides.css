@@ -1,0 +1,108 @@
+
+  .carousel-inner {
+    height: 80%; 
+    width: 100%; 
+   } 
+  
+   .carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black; /* Set text color to black */
+    text-align: center;
+  }
+  
+  .carousel-caption h5 {
+    font-weight: bold; /* Make the caption title bold */
+    font-size: 3rem; /* Optional: Adjust the size */
+    color: rgb(255, 255, 255);
+  }
+  
+  .carousel-caption p {
+    font-weight: bold; /* Make the description bold */
+    font-size: 2.5rem; /* Optional: Adjust the size */
+    color: rgb(201, 206, 217);
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 4rem; /* Adjust the size of the arrow */
+    height: 4rem; /* Adjust the size of the arrow */
+    background-color: rgba(255, 255, 255, 0); /* Make the arrow black */
+    border-radius: 50%; /* Optional: Add rounded background for better visibility */
+  }
+  
+  .carousel-control-prev-icon::before,
+  .carousel-control-next-icon::before {
+    color: white; /* Optional: Ensure arrow inside is white */
+    font-size: 1.5rem; /* Adjust the size of the arrow icon */
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    outline: none; /* Remove focus outlines */
+  }
+
+  /* Default carousel image height */
+.custom-carousel-img {
+    height: 80%; /* Default for laptops */
+    object-fit: cover;
+  }
+  
+  /* Captions styling */
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+   
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) { /* For smaller desktops */
+    .custom-carousel-img {
+      height: 350px;
+    }
+  }
+  
+  @media (max-width: 992px) { /* For tablets and smaller laptops */
+    .custom-carousel-img {
+      height: 300px;
+    }
+  }
+  
+  @media (max-width: 768px) { /* For tablets in portrait mode */
+    .custom-carousel-img {
+      height: 250px;
+    }
+  }
+  
+  @media (max-width: 576px) { /* For mobile devices */
+    .custom-carousel-img {
+      height: 200px;
+    }
+  }
+  
+
+  /* Add this in your Slides.css */
+/* .carousel-image-overlay {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .carousel-image-overlay img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-image-overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 1;
+  } */
+  
