@@ -234,3 +234,4 @@ C:\Users\Admin\Desktop\RanuProject\NEXT_RIDE\NEXT_RIDE\CarRentalNETBackend\obj\D
 C:\Users\Admin\Desktop\RanuProject\NEXT_RIDE\NEXT_RIDE\CarRentalNETBackend\obj\Debug\net8.0\CarRentalNETBackend.pdb
 C:\Users\Admin\Desktop\RanuProject\NEXT_RIDE\NEXT_RIDE\CarRentalNETBackend\obj\Debug\net8.0\CarRentalNETBackend.genruntimeconfig.cache
 C:\Users\Admin\Desktop\RanuProject\NEXT_RIDE\NEXT_RIDE\CarRentalNETBackend\obj\Debug\net8.0\ref\CarRentalNETBackend.dll
+C:\Users\Admin\Desktop\RanuProject\NEXT_RIDE\NEXT_RIDE\CarRentalNETBackend\obj\Debug\net8.0\CarRentalNETBackend.sourcelink.json
