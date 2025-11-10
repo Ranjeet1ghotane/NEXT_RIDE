@@ -17,12 +17,12 @@ function Footer() {
               it's a weekend getaway, business trip, or daily commute, we have
               the perfect ride for you. Enjoy a seamless booking experience,
               doorstep delivery, and 24/7 customer support to ensure you hit the
-              road with confidence and comfort!
+              road with confidence and comfort.
             </p>
           </div>
 
           <div className="col-lg-4 col-md-6 mb-4">
-            <h4 style={{color:"#5edd5b"}}>Quick Links</h4>
+            <h4 style={{color:"#5edd5b"}}>Quick Link</h4>
             <ul className="list-unstyled">
               <li>
                 <NavLink
