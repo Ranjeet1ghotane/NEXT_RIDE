@@ -3,7 +3,7 @@ import './Section2.css'; // Import custom CSS file
 
 function Section2() {
   return (
-    <div style={{backgroundColor:"#a9ab99"}}>
+    <div style={{backgroundColor:"#ebf1c1ff"}}>
     <div className="container">
       <img src="./assests/carbaner1.webp" alt="baner1" className="center-image" />
     </div>
